@@ -226,7 +226,7 @@ function App() {
         {/* //replacing turns prop with board prop to pass the gameTurns state as board prop to GameBoard component. */}
       </div>
       {/* //LOG COMPONENT */}
-      <Log turns={gameTurns} />
+      <Log turns={gameTurns} players={players} />
       {/* // passing gameTurns state as turns prop to Log component to let it know which squares have been selected and by which player, this will be used to display the log of moves in the Log component. */}
     </main>
   );

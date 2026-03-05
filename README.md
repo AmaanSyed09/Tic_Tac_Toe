@@ -8,6 +8,7 @@ A simple Tic-Tac-Toe game built with React and Vite.
 - Editable player names
 - Active player highlight
 - Move log showing played positions
+- Move log shows custom player names (not just X/O) and keeps typed name casing
 - Automatic win and draw detection
 - Rematch button to restart the game
 
